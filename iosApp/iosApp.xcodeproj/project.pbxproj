@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695E5BA72EE6891500B35095 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695E5BA62EE6891500B35095 /* shared.xcframework */; };
+		695E5BA82EE6891500B35095 /* shared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 695E5BA62EE6891500B35095 /* shared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1000001230001 /* AriaPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001230000 /* AriaPayApp.swift */; };
 		A1000001230003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001230002 /* ContentView.swift */; };
 		A1000001230005 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001230004 /* Theme.swift */; };
@@ -18,7 +20,22 @@
 		A1000001230011 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001230010 /* TransactionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		695E5BA92EE6891500B35095 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				695E5BA82EE6891500B35095 /* shared.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		695E5BA62EE6891500B35095 /* shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared.xcframework; path = ../shared/build/XCFrameworks/debug/shared.xcframework; sourceTree = "<group>"; };
 		A1000001220000 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000001230000 /* AriaPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriaPayApp.swift; sourceTree = "<group>"; };
 		A1000001230002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,16 +54,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695E5BA72EE6891500B35095 /* shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		695E5BA52EE6891500B35095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695E5BA62EE6891500B35095 /* shared.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1000001100000 = {
 			isa = PBXGroup;
 			children = (
 				A1000001300000 /* iosApp */,
+				695E5BA52EE6891500B35095 /* Frameworks */,
 				A1000001200000 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +121,7 @@
 				A1000001210002 /* Sources */,
 				A1000001210000 /* Frameworks */,
 				A1000001210003 /* Resources */,
+				695E5BA92EE6891500B35095 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,13 +203,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../shared/build/XCFrameworks/debug";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -209,7 +238,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
