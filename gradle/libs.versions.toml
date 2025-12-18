@@ -5,6 +5,7 @@ koin = "4.0.0"
 coroutines = "1.9.0"
 kotlinx-serialization = "1.7.3"
 kotlinx-datetime = "0.6.1"
+material = "1.12.0"
 
 # Android specific
 compose-bom = "2024.10.01"
@@ -14,6 +15,9 @@ androidx-lifecycle = "2.8.6"
 androidx-navigation = "2.8.3"
 
 [libraries]
+# Google
+google-material = { module = "com.google.android.material:material", version.ref = "material" }
+
 # Kotlin
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }

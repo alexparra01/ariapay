@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Outer shadow/3D effect -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M50,95C74.85,95 95,74.85 95,50C95,25.15 74.85,5 50,5C25.15,5 5,25.15 5,50C5,74.85 25.15,95 50,95Z"/>
+    
+    <!-- Main red circle -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M50,90C72.09,90 90,72.09 90,50C90,27.91 72.09,10 50,10C27.91,10 10,27.91 10,50C10,72.09 27.91,90 50,90Z"/>
+    
+    <!-- Inner highlight -->
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M50,80C66.57,80 80,66.57 80,50C80,33.43 66.57,20 50,20C33.43,20 20,33.43 20,50C20,66.57 33.43,80 50,80Z"/>
+    
+    <!-- X mark - first line shadow -->
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M35,32L68,65"
+        android:strokeWidth="8"
+        android:strokeColor="#00796B"
+        android:strokeLineCap="round"/>
+    
+    <!-- X mark - second line shadow -->
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M68,32L35,65"
+        android:strokeWidth="8"
+        android:strokeColor="#00796B"
+        android:strokeLineCap="round"/>
+    
+    <!-- X mark - first line -->
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M35,35L65,65"
+        android:strokeWidth="8"
+        android:strokeColor="#26A69A"
+        android:strokeLineCap="round"/>
+    
+    <!-- X mark - second line -->
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M65,35L35,65"
+        android:strokeWidth="8"
+        android:strokeColor="#26A69A"
+        android:strokeLineCap="round"/>
+</vector>

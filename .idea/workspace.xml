@@ -4,94 +4,95 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/drawable/ic_error_circle.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/drawable/ic_launcher_background.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/drawable/ic_launcher_foreground.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/drawable/logo.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/androidApp/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
+        <config>
+          <theme>@style/Theme.AriaPay</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87ef945-05db-4c6f-853b-b819e544ed3a" name="Changes" comment="">
+    <list default="true" id="b87ef945-05db-4c6f-853b-b819e544ed3a" name="Changes" comment="Implement create account flow">
       <change afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/alexanderparra.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/shared" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/shared" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosArm64/debugFramework/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosArm64/debugFramework/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosArm64/debugFramework/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosArm64/debugFramework/shared.framework/shared" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosSimulatorArm64/debugFramework/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosSimulatorArm64/debugFramework/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosSimulatorArm64/debugFramework/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosSimulatorArm64/debugFramework/shared.framework/shared" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosX64/debugFramework/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosX64/debugFramework/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosX64/debugFramework/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/bin/iosX64/debugFramework/shared.framework/shared" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/bodies.knb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/debugInfo.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/files.knf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/irDeclarations.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/signatures.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/strings.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/ir/types.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.api/0_api.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.mock/0_mock.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.repository/0_repository.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.di/0_di.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/0_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/1_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/2_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.usecase/0_usecase.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosArm64/main/klib/shared/default/manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/bodies.knb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/debugInfo.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/files.knf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/irDeclarations.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/signatures.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/strings.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/ir/types.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.api/0_api.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.mock/0_mock.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.data.repository/0_repository.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.di/0_di.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/0_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/1_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/2_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/linkdata/package_com.ariapay.domain.usecase/0_usecase.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosSimulatorArm64/main/klib/shared/default/manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/bodies.knb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/debugInfo.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/files.knf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/irDeclarations.knd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/signatures.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/strings.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/ir/types.knt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.data.api/0_api.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.data.mock/0_mock.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.data.repository/0_repository.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.di/0_di.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/0_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/1_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.domain.model/2_model.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/linkdata/package_com.ariapay.domain.usecase/0_usecase.knm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/iosX64/main/klib/shared/default/manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/sharedXCFrameworkTemp/fatframework/debug/iosSimulator/shared.framework/Headers/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/sharedXCFrameworkTemp/fatframework/debug/iosSimulator/shared.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/sharedXCFrameworkTemp/fatframework/debug/iosSimulator/shared.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/build/sharedXCFrameworkTemp/fatframework/debug/iosSimulator/shared.framework/shared" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/biometrics/BiometricAuthManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/ConfirmationBottomSheet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/ErrorBottomSheet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/NumberKeypad.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/OtpInputField.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/ThemeButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/components/Topbar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/SplashScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/AuthenticationViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/BiometricAuthScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/CreateAccountScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/LoginScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/OtpVerificationScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/PasscodeScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/auth/ProfileScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/home/HomeScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/onboard/OnboardScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/payment/PaymentResultScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/payment/PaymentScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/payment/PaymentViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/settings/SettingsScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/transactionhistory/TransactionHistoryScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/transactionhistory/TransactionHistoryViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/models/AuthState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/models/BiometricState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/models/LoginState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/ariapay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/errorpopupicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/ic_error_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/outline_arrow_back_ios_new_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/outline_backspace_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/wallet2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/drawable/wallets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/CheckAuthStatusUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/CreateAccountUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/GetCurrentUserUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/GetDefaultCardUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/GetTransactionHistoryUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/GetWalletUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/LoginUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/LogoutUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/ObserveTransactionsUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/ProcessNfcPaymentUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecases/QuickPayUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
@@ -104,12 +105,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/xcuserdata/alexanderparra.xcuserdatad/xcschemes/iosApp.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/xcuserdata/alexanderparra.xcuserdatad/xcschemes/iosApp.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/navigation/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/navigation/Navigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/screens/Screens.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/viewmodel/ViewModels.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/alexanderparra.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/alexanderparra.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Headers/shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64/shared.framework/shared" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Headers/shared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/XCFrameworks/debug/shared.xcframework/ios-arm64_x86_64-simulator/shared.framework/shared" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/di/SharedModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/di/SharedModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/ariapay/domain/usecase/UseCases.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +136,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/alexanderparra/.android/avd/Pixel_9_Pro.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R5CY61Q77JE)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -198,16 +215,38 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.7-bin/bhs2wmbdwecv87pi65oeuq5iu/gradle-8.7" javaHome="$APPLICATION_HOME_DIR$/jbr/Contents/Home" gradleVersion="8.7">
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexparra01&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexparra01/ariapay.git&quot;,
+    &quot;accountId&quot;: &quot;d76461b6-c683-4fdd-9dba-5ba90bb598ad&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/Projects/moneybrilliant-android/wrapper/dists/gradle-8.7-bin/bhs2wmbdwecv87pi65oeuq5iu/gradle-8.7" javaHome="$APPLICATION_HOME_DIR$/jbr/Contents/Home" gradleVersion="8.7">
     <option name="jvmArguments">
       <list>
         <option value="-Didea.compose.hot-reload=true" />
         <option value="-Didea.compose.hot-reload.version=2" />
       </list>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -216,23 +255,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.androidApp.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alexanderparra/neurona/ariapay",
-    "settings.editor.selected.configurable": "preferences.language.Kotlin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.androidApp.executor&quot;: &quot;Run&quot;,
+    &quot;DEBUGGABLE_DEVICE&quot;: &quot;Pixel_9_Pro [emulator-5556]&quot;,
+    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.ariapay&quot;,
+    &quot;DEBUGGER_ID&quot;: &quot;Auto&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexanderparra/neurona/ariapay/androidApp/src/main/res/drawable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.bot.mainConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/androidApp/src/main/res/drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/androidApp/src/main/res/drawable" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.ariapay.ui.features.auth" />
+      <recent name="com.ariapay.ui.features" />
+    </key>
+  </component>
   <component name="RunManager" selected="Android App.androidApp">
     <configuration name="androidApp" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="AriaPay.androidApp" />
@@ -306,6 +361,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="${TEAM_ID}" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="iosApp" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="iosApp" TARGET_NAME="iosApp" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="iosApp" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="${TEAM_ID}" RUN_TARGET_PROJECT_NAME="iosApp" RUN_TARGET_NAME="iosApp" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
@@ -325,7 +386,41 @@
       <option name="presentableId" value="Default" />
       <updated>1764820339468</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fix build issues in ios and android">
+      <option name="closed" value="true" />
+      <created>1765169715006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765169715006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Build ios files">
+      <option name="closed" value="true" />
+      <created>1765169938568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765169938568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix build issues in ios and android" />
+    <MESSAGE value="Build ios files" />
+    <MESSAGE value="Implement create account flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement create account flow" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/androidApp/src/main/kotlin/com/ariapay/ui/features/SplashScreen.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
@@ -340,12 +435,12 @@
       <map>
         <entry key="com.ariapay">
           <value>
-            <CheckInfo lastCheckTimestamp="1764820877965" />
+            <CheckInfo lastCheckTimestamp="1766069690049" />
           </value>
         </entry>
         <entry key="com.ariapay.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1764820877965" />
+            <CheckInfo lastCheckTimestamp="1766069690301" />
           </value>
         </entry>
       </map>

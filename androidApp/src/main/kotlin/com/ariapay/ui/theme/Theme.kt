@@ -11,17 +11,24 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 object AriaPayColors {
-    val Primary = Color(0xFF1A237E)
-    val PrimaryLight = Color(0xFF534BAE)
-    val Secondary = Color(0xFF00BFA5)
+    val Primary = Color(0xFF008080)
+    val PrimaryLight = Color(0xFF008080)
+    val Secondary = Color(0xFFC11D16)
     val SecondaryLight = Color(0xFF5DF2D6)
-    val Success = Color(0xFF4CAF50)
-    val Error = Color(0xFFE53935)
-    val Warning = Color(0xFFFF9800)
-    val BackgroundLight = Color(0xFFF5F5F5)
+    val Success = Color(0xFF00B900)
+    val Error = Color(0xFFF80000)
+    val Warning = Color(0xFFEFBA2A)
+    val BackgroundLight = Color(0xFFF7F8F8)
     val BackgroundDark = Color(0xFF121212)
     val SurfaceLight = Color(0xFFFFFFFF)
     val SurfaceDark = Color(0xFF1E1E1E)
+
+    object Neutral {
+        val N10 = Color(0xFF566663) // Neutral 10
+        val N100 = Color(0xFFF5F5F5) // Light Gray
+        val N200 = Color(0xFFEEEEEE) // Lighter Gray
+        val N500 = Color(0xFF9E9E9E) // Medium Gray
+    }
 }
 
 private val LightColorScheme = lightColorScheme(
@@ -55,7 +62,7 @@ fun AriaPayTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    val colorScheme = LightColorScheme //if (darkTheme) DarkColorScheme else LightColorScheme
     val view = LocalView.current
     
     if (!view.isInEditMode) {

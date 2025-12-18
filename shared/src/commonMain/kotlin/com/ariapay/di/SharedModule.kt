@@ -4,7 +4,7 @@ import com.ariapay.data.api.AriaPayApi
 import com.ariapay.data.mock.MockAriaPayApi
 import com.ariapay.data.repository.PaymentRepository
 import com.ariapay.data.repository.PaymentRepositoryImpl
-import com.ariapay.domain.usecase.*
+import com.ariapay.domain.usecases.*
 import org.koin.core.module.Module
 import org.koin.dsl.module
 

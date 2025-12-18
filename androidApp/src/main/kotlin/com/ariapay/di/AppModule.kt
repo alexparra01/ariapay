@@ -1,12 +1,15 @@
 package com.ariapay.di
 
-import com.ariapay.viewmodel.*
-import org.koin.androidx.viewmodel.dsl.viewModel
+import com.ariapay.ui.features.home.HomeViewModel
+import com.ariapay.ui.features.auth.AuthenticationViewModel
+import com.ariapay.ui.features.payment.PaymentViewModel
+import com.ariapay.ui.features.transactionhistory.TransactionHistoryViewModel
+import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.module
 
 val appModule = module {
-    viewModel { AuthViewModel(get(), get(), get(), get()) }
-    viewModel { HomeViewModel(get(), get(), get()) }
-    viewModel { PaymentViewModel(get(), get()) }
-    viewModel { TransactionHistoryViewModel(get(), get()) }
+    viewModelOf(::AuthenticationViewModel)
+    viewModelOf(::HomeViewModel)
+    viewModelOf(::PaymentViewModel)
+    viewModelOf(::TransactionHistoryViewModel)
 }
